@@ -1,8 +1,8 @@
 baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Personal website of Emily Cooper"
-author = "Emily Cooper"
+title = "Hallett Lab"
+author = "MT Hallett"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = ""
@@ -37,18 +37,18 @@ enableEmoji = true
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
-  socialInHeader = false
+  socialInHeader = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/logo.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = "hallettmichael"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "violet"
+  theme = "sky"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -61,8 +61,8 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Alegreya Sans / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
+  customtextFontFamily = "Metropolis"
+  customheadingFontFamily = "Metropolis"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
@@ -76,23 +76,27 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
-  [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
-  [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.instagram.com/explore/tags/apero/"
+      url       = "https://github.com/hallettmiket"
+  #[[params.social]]
+  #    icon      = "facebook-square" # icon name without the 'fa-'
+  #    icon_pack = "fab"
+  #    url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+  #[[params.social]]
+  #    icon      = "instagram" # icon name without the 'fa-'
+  #    icon_pack = "fab"
+  #    url       = "https://www.instagram.com/explore/tags/apero/"
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
+      url       = "https://twitter.com/hallettmichael"
   [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
-      icon_pack = "fas"
-      url       = "/blog/index.xml"
+      icon      = "youtube" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://www.youtube.com/channel/UCx3QJc2DZSo-mny8UERmywg"
+  #[[params.social]]
+  #    icon      = "rss" # icon name without the 'fa-'
+  #    icon_pack = "fas"
+  #    url       = "/blog/index.xml"
 
 [taxonomies]
   category = "categories"
